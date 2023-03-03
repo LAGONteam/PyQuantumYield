@@ -21,6 +21,10 @@ DATA_SOLVENT={
 DATA_REF ={
         "Fluorescein": {"Aq. NaOH 0.1M":0.9},
         "QBS": {"Aq. H2SO4 0.5M":0.456},
-        "Nile red": {"DMSO":0.27}
+        "Nile red": {"DMSO":0.27},
+        "Nile blue": {"Ethanol": 0.27},
+        "Indocyanine green": {"DMSO":0.11},
+        "Rhodamine 6G": {"Ethanol": 0.94},
+        "Cresyl violet": {"Methanol": 0.54}
 
     }

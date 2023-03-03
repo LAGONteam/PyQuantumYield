@@ -31,7 +31,7 @@ class Main():
         n_ref= self.solvent(name=solvent_ref)
 
         abs_ratio=(1-pow(10, -abs_ref))/(1-pow(10, -abs_sample)) # pow(10, -2) == 10^-2 == 0.01
-        phi_sample = (phi_ref*(abs_ratio)*(fluo_sample/fluo_ref)*(n_sample*n_sample/n_ref*n_ref))
+        phi_sample = (phi_ref*(abs_ratio)*(fluo_sample/fluo_ref)*((n_sample*n_sample)/(n_ref*n_ref)))
         return round(phi_sample, 3)
 
 
